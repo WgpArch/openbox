@@ -1,0 +1,47 @@
+background no
+use_xft yes
+xftfont 123:size=8
+xftalpha 0.5
+update_interval 1
+total_run_times 0
+own_window yes
+own_window_type normal
+own_window_transparent yes
+own_window_argb_visual no
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+double_buffer yes
+default_bar_size 0 8
+
+maximum_width 480
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+default_color white
+default_shade_color red
+default_outline_color green
+alignment top_left
+gap_x 10
+gap_y 390
+gap_y 0
+no_buffers yes
+uppercase no
+override_utf8_locale yes
+
+TEXT
+${color  #1793d1}${font Open Sans:size=30}South${color} ${font Open Sans:size=30}Africa${font}${color}
+${voffset -0}${color white}${font}${font Open Sans:size=20}${alignc}${execi 1 python -c "from datetime import datetime; print(datetime.now().strftime('%H:%M:%S %p'))"}$font$color
+${voffset 4}${color  #1793d1}${font Open Sans:Bold:size=15}DATE ${hr 5}$color$font
+$color${font Open Sans:size=13}$alignc${time %A} ${time %Y %b %d}$font$color
+${voffset 10}${alignc}${font Open Sans:size=14}${color  #1793d1}Weather Information$color$font
+${voffset 5}${alignc}${font Open Sans:size=12}${color white}${execi 600 curl -s 'http://api.openweathermap.org/data/2.5/weather?q=Odendaalsrus,ZA&appid=f64d641844910ee2147908bfeafb6e2b' | jq -r '.name'}, ${execi 600 curl -s 'http://api.openweathermap.org/data/2.5/weather?q=Odendaalsrus,ZA&appid=f64d641844910ee2147908bfeafb6e2b' | jq -r '.sys.country'}$color$font
+${voffset 5}${alignc}${font Open Sans:size=12}${color #1793d1}${execi 600 curl -s 'http://api.openweathermap.org/data/2.5/weather?q=Odendaalsrus,ZA&appid=f64d641844910ee2147908bfeafb6e2b' | jq -r '.main.temp' | awk '{print int($1 - 273.15)}'}°C$color$font
+# Define font
+${font DejaVu Sans Mono:size=11}
+# Display the calendars
+${execpi 300 cal --monday $(date --date="$(date +%Y-%m-15) -1 month" +'%m %Y') | sed 's/\(Mo\|Tu\|We\|Th\|Fr\|Sa\|Su\)/${color #1793d1}\1${color}/g'}
+${execpi 300 cal --monday | sed --regexp-extended --expression="s!( |^)($(date +%e))( |$)!\1\$\{color #1793d1\}\2\$\{color\}\3!"}
+${execpi 300 cal --monday $(date --date="$(date +%Y-%m-15) +1 month" +'%m %Y') | sed 's/\(Mo\|Tu\|We\|Th\|Fr\|Sa\|Su\)/${color #1793d1}\1${color}/g'}
+
+# Reset the font to default
+${font}

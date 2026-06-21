@@ -1,0 +1,34 @@
+#
+# These things are run when an Openbox X Session is started.
+# You may place a similar script in $HOME/.config/openbox/autostart
+# to run user-specific things.
+#
+
+# If you want to use GNOME config tools...
+#
+#if test -x /usr/lib/openbox/gnome-settings-daemon >/dev/null; then
+#  /usr/lib/openbox/gnome-settings-daemon &
+#elif which gnome-settings-daemon >/dev/null 2>&1; then
+#  gnome-settings-daemon &
+#fi
+
+# If you want to use XFCE config tools...
+#
+#xfce-mcs-manager &
+
+# Start auzia-conky Conky
+#(
+#cd ~/.config/openbox/auzia-conky
+#conky -c conkyrc &
+#)
+
+#polybar -c ~/.config/openbox/polybar/config.ini example &
+xfce4-power-manager &
+tint2 &
+nm-applet &
+feh --bg-scale "/home/wgparch/Pictures/ALNW/archlinux-simplyblack.png" &
+#feh --bg-scale "/home/wgparch/Pictures/ALNW/Arch-Reddit.png" &
+#feh --bg-scale "/home/wgparch/Pictures/ALNW/Black.jpg" &
+conky -c ~/.config/openbox/conkyrc-right &
+conky -c ~/.config/openbox/conkyrc-left &
+

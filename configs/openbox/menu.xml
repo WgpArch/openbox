@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="https://openbox.org/"
+ xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://openbox.org/">
+  <menu id="root-menu" label="Applications">
+    <item label="File Manager" icon="/home/wgparch/.cache/obmenu-generator/icons/dcb352d4dc415ce6e566651d3b0b5e54.png"><action name="Execute"><command><![CDATA[xdg-open .]]></command></action></item>
+    <item label="Terminal" icon="/home/wgparch/.cache/obmenu-generator/icons/3f43f2f594c7899381888da0e6ba8049.png"><action name="Execute"><command><![CDATA[xterm]]></command></action></item>
+    <item label="Web Browser" icon="/home/wgparch/.cache/obmenu-generator/icons/0fd14be8770af75716427df2c3a3194a.png"><action name="Execute"><command><![CDATA[xdg-open http://]]></command></action></item>
+    <item label="Run command" icon="/home/wgparch/.cache/obmenu-generator/icons/9af52c5d04eba4e9be770dcee42509a4.png"><action name="Execute"><command><![CDATA[gmrun]]></command></action></item>
+  <separator label="Categories"/>
+  <menu id="0.692435269084857" icon="/home/wgparch/.cache/obmenu-generator/icons/02697d3ec1072b46033f344a783d4400.png" label="Accessories">
+    <item label="About Xfce" icon="/home/wgparch/.cache/obmenu-generator/icons/2777892b95f4d349e0983bf07ccf5cb4.png"><action name="Execute"><command><![CDATA[xfce4-about]]></command></action></item>
+    <item label="Screenshot" icon="/home/wgparch/.cache/obmenu-generator/icons/bec41ac188821aab6d4d1cdd709807c3.png"><action name="Execute"><command><![CDATA[gnome-screenshot --interactive]]></command></action></item>
+    <item label="xgps" icon="/home/wgparch/.cache/obmenu-generator/icons/abc25907980b6da31ac22cc324ab8231.png"><action name="Execute"><command><![CDATA[xgps]]></command></action></item>
+    <item label="xgpsspeed" icon="/home/wgparch/.cache/obmenu-generator/icons/abc25907980b6da31ac22cc324ab8231.png"><action name="Execute"><command><![CDATA[xgpsspeed]]></command></action></item>
+    <item label="Youtube Downloader GUI" icon="/home/wgparch/.cache/obmenu-generator/icons/e8470dbb8179a27ed631bab06aa469ab.png"><action name="Execute"><command><![CDATA[yt-dlg]]></command></action></item>
+  </menu>
+  <menu id="0.716714735233353" icon="/home/wgparch/.cache/obmenu-generator/icons/5ef2c2bbeee032014115d4ec9a234013.png" label="Development">
+    <item label="CMake" icon="/home/wgparch/.cache/obmenu-generator/icons/c6501e1561ba4fcdfb8ae65278ab93bc.png"><action name="Execute"><command><![CDATA[cmake-gui]]></command></action></item>
+    <item label="Geany" icon="/home/wgparch/.cache/obmenu-generator/icons/ea8896e1f32148a85124ce6ee6f8335a.png"><action name="Execute"><command><![CDATA[geany]]></command></action></item>
+  </menu>
+  <menu id="0.807088949755904" icon="/home/wgparch/.cache/obmenu-generator/icons/d9d8f457421a1819e18e412f1de3d549.png" label="Education">
+    <item label="LibreOffice Math" icon="/home/wgparch/.cache/obmenu-generator/icons/e8fdd5d15425def4452734833c5bc6e7.png"><action name="Execute"><command><![CDATA[libreoffice --math]]></command></action></item>
+  </menu>
+  <menu id="0.567569912734093" icon="/home/wgparch/.cache/obmenu-generator/icons/07b45747ee8c61bae6d20c52537dc834.png" label="Graphics">
+    <item label="LibreOffice Draw" icon="/home/wgparch/.cache/obmenu-generator/icons/2896570f1b1f95ce4be5bce3fa61201e.png"><action name="Execute"><command><![CDATA[libreoffice --draw]]></command></action></item>
+    <item label="Shotwell" icon="/home/wgparch/.cache/obmenu-generator/icons/39c05dc41d17e2cdd9cebc8e97bb3580.png"><action name="Execute"><command><![CDATA[shotwell]]></command></action></item>
+  </menu>
+  <menu id="0.770240025723144" icon="/home/wgparch/.cache/obmenu-generator/icons/cd0181df09a6e8202b924b4281308e62.png" label="Multimedia">
+    <item label="fre:ac" icon="/home/wgparch/.cache/obmenu-generator/icons/fbc24d51b9a410c8a246c9d0ce2dc693.png"><action name="Execute"><command><![CDATA[freac]]></command></action></item>
+    <item label="mpv Media Player" icon="/home/wgparch/.cache/obmenu-generator/icons/a7a11082291f7fc4f5c0fa8280269e5f.png"><action name="Execute"><command><![CDATA[mpv --player-operation-mode=pseudo-gui --]]></command></action></item>
+    <item label="Qt V4L2 test Utility" icon="/home/wgparch/.cache/obmenu-generator/icons/536fa375e9ddf3f93743c18aeecb4e9d.png"><action name="Execute"><command><![CDATA[qv4l2]]></command></action></item>
+    <item label="Qt V4L2 video capture utility" icon="/home/wgparch/.cache/obmenu-generator/icons/536fa375e9ddf3f93743c18aeecb4e9d.png"><action name="Execute"><command><![CDATA[qvidcap]]></command></action></item>
+    <item label="Sayonara" icon="/home/wgparch/.cache/obmenu-generator/icons/77ddde8ea8d6a2c7120c6c6d219673d3.png"><action name="Execute"><command><![CDATA[sayonara]]></command></action></item>
+    <item label="Shortwave" icon="/home/wgparch/.cache/obmenu-generator/icons/1912a5ba37ae27498ad87376ce730bf8.png"><action name="Execute"><command><![CDATA[shortwave]]></command></action></item>
+    <item label="SMPlayer" icon="/home/wgparch/.cache/obmenu-generator/icons/66f0af0865cf99e48701f27cad378c39.png"><action name="Execute"><command><![CDATA[smplayer]]></command></action></item>
+    <item label="Sound Converter" icon="/home/wgparch/.cache/obmenu-generator/icons/b6b8822e12974aeb592a04b36fd2d767.png"><action name="Execute"><command><![CDATA[env GTK_THEME=Adwaita:dark soundconverter]]></command></action></item>
+    <item label="Spotify" icon="/home/wgparch/.cache/obmenu-generator/icons/f620332c34ef2b3f44fbc0855018042a.png"><action name="Execute"><command><![CDATA[spotify --uri=%u]]></command></action></item>
+    <item label="Volume Control" icon="/home/wgparch/.cache/obmenu-generator/icons/a5963c55ce7fff8c52fa00516529ce71.png"><action name="Execute"><command><![CDATA[pavucontrol]]></command></action></item>
+    <item label="Youtube Downloader GUI" icon="/home/wgparch/.cache/obmenu-generator/icons/e8470dbb8179a27ed631bab06aa469ab.png"><action name="Execute"><command><![CDATA[yt-dlg]]></command></action></item>
+  </menu>
+  <menu id="0.636681199292056" icon="/home/wgparch/.cache/obmenu-generator/icons/96cc6d91edf2df258c5bd5120a475d01.png" label="Network">
+    <item label="Avahi SSH Server Browser" icon="/home/wgparch/.cache/obmenu-generator/icons/48eb635bf222744beb0fea5efb4510dd.png"><action name="Execute"><command><![CDATA[/usr/bin/bssh]]></command></action></item>
+    <item label="Avahi VNC Server Browser" icon="/home/wgparch/.cache/obmenu-generator/icons/48eb635bf222744beb0fea5efb4510dd.png"><action name="Execute"><command><![CDATA[/usr/bin/bvnc]]></command></action></item>
+    <item label="Betterbird" icon="/home/wgparch/.cache/obmenu-generator/icons/917e3c6096d1c9a91fbc7f5d1303b3de.png"><action name="Execute"><command><![CDATA[betterbird]]></command></action></item>
+    <item label="Firefox Nightly" icon="/home/wgparch/.cache/obmenu-generator/icons/3874cbb83856d5469559f9e85856ad29.png"><action name="Execute"><command><![CDATA[/opt/firefox-nightly/firefox]]></command></action></item>
+    <item label="Firefox" icon="/home/wgparch/.cache/obmenu-generator/icons/1d8c66813d50ea60416d05c88622b1f0.png"><action name="Execute"><command><![CDATA[/usr/lib/firefox/firefox]]></command></action></item>
+    <item label="Telegram" icon="/home/wgparch/.cache/obmenu-generator/icons/63bc1f4391ee7dc9e3d26148fde8234d.png"><action name="Execute"><command><![CDATA[Telegram --]]></command></action></item>
+    <item label="Vivaldi" icon="/home/wgparch/.cache/obmenu-generator/icons/2c6294b798f218d9775010ee31d4a3f2.png"><action name="Execute"><command><![CDATA[/usr/bin/vivaldi-stable]]></command></action></item>
+  </menu>
+  <menu id="0.90952100292483" icon="/home/wgparch/.cache/obmenu-generator/icons/45c32e1bbe1e27c933f3da96ddadee79.png" label="Office">
+    <item label="LibreOffice Base" icon="/home/wgparch/.cache/obmenu-generator/icons/19a32f536c438b08312eba6a6b9f3b76.png"><action name="Execute"><command><![CDATA[libreoffice --base]]></command></action></item>
+    <item label="LibreOffice Calc" icon="/home/wgparch/.cache/obmenu-generator/icons/8e09012845644d93cbe7d4c5dc837c14.png"><action name="Execute"><command><![CDATA[libreoffice --calc]]></command></action></item>
+    <item label="LibreOffice Draw" icon="/home/wgparch/.cache/obmenu-generator/icons/2896570f1b1f95ce4be5bce3fa61201e.png"><action name="Execute"><command><![CDATA[libreoffice --draw]]></command></action></item>
+    <item label="LibreOffice Impress" icon="/home/wgparch/.cache/obmenu-generator/icons/73b9b9624174a5e95d47912c92f8328f.png"><action name="Execute"><command><![CDATA[libreoffice --impress]]></command></action></item>
+    <item label="LibreOffice Math" icon="/home/wgparch/.cache/obmenu-generator/icons/e8fdd5d15425def4452734833c5bc6e7.png"><action name="Execute"><command><![CDATA[libreoffice --math]]></command></action></item>
+    <item label="LibreOffice Writer" icon="/home/wgparch/.cache/obmenu-generator/icons/45966af9c785cf0e5b27037bc170f19d.png"><action name="Execute"><command><![CDATA[libreoffice --writer]]></command></action></item>
+    <item label="LibreOffice" icon="/home/wgparch/.cache/obmenu-generator/icons/2da813b659b8ad16c39ac8a46f252887.png"><action name="Execute"><command><![CDATA[libreoffice]]></command></action></item>
+    <item label="Xpdf" icon="/home/wgparch/.cache/obmenu-generator/icons/36c65cdfda688947ff1d7d88575b3898.png"><action name="Execute"><command><![CDATA[xpdf]]></command></action></item>
+  </menu>
+  <menu id="0.243063356768367" icon="/home/wgparch/.cache/obmenu-generator/icons/0a716b4c8f42b7784ca48cf01c6d5b29.png" label="Other">
+    <item label="Rofi Theme Selector" icon="/home/wgparch/.cache/obmenu-generator/icons/cc59e58092d7a55344959b8afd32b973.png"><action name="Execute"><command><![CDATA[rofi-theme-selector]]></command></action></item>
+    <item label="Rofi" icon="/home/wgparch/.cache/obmenu-generator/icons/cc59e58092d7a55344959b8afd32b973.png"><action name="Execute"><command><![CDATA[rofi -show]]></command></action></item>
+    <item label="SoundConverter (dark)" icon="/home/wgparch/.cache/obmenu-generator/icons/b6b8822e12974aeb592a04b36fd2d767.png"><action name="Execute"><command><![CDATA[env GTK_THEME=Adwaita:dark soundconverter]]></command></action></item>
+  </menu>
+  <menu id="0.657868060507472" icon="/home/wgparch/.cache/obmenu-generator/icons/f3696f59388a5c36c99c8356cd61c752.png" label="Settings">
+    <item label="Advanced Network Configuration" icon="/home/wgparch/.cache/obmenu-generator/icons/96cc6d91edf2df258c5bd5120a475d01.png"><action name="Execute"><command><![CDATA[nm-connection-editor]]></command></action></item>
+    <item label="ARandR"><action name="Execute"><command><![CDATA[arandr]]></command></action></item>
+    <item label="Desktop Preferences" icon="/home/wgparch/.cache/obmenu-generator/icons/e09c24e287c57c8a9cf180ba76879854.png"><action name="Execute"><command><![CDATA[pcmanfm --desktop-pref]]></command></action></item>
+    <item label="GTK Settings" icon="/home/wgparch/.cache/obmenu-generator/icons/a3e1b0c6b4ea4217e98c022c61bc756d.png"><action name="Execute"><command><![CDATA[nwg-look]]></command></action></item>
+    <item label="Notifications" icon="/home/wgparch/.cache/obmenu-generator/icons/d65a37cc08785b38a58ca5448d862b68.png"><action name="Execute"><command><![CDATA[xfce4-notifyd-config]]></command></action></item>
+    <item label="Openbox Settings" icon="/home/wgparch/.cache/obmenu-generator/icons/61f3de6fd06f9847e869878302ba1980.png"><action name="Execute"><command><![CDATA[obconf-qt]]></command></action></item>
+    <item label="Power Manager" icon="/home/wgparch/.cache/obmenu-generator/icons/fc3570f4ae9805a6c5c7b2bb42702284.png"><action name="Execute"><command><![CDATA[xfce4-power-manager-settings]]></command></action></item>
+    <item label="Preferred Applications" icon="/home/wgparch/.cache/obmenu-generator/icons/0f6daeed24502790bd8b4ccfc79e2f09.png"><action name="Execute"><command><![CDATA[libfm-pref-apps]]></command></action></item>
+    <item label="Tint2 Settings" icon="/home/wgparch/.cache/obmenu-generator/icons/e5dfe167c6bd240282dbab2b0f575d3b.png"><action name="Execute"><command><![CDATA[tint2conf]]></command></action></item>
+    <item label="Volume Control" icon="/home/wgparch/.cache/obmenu-generator/icons/a5963c55ce7fff8c52fa00516529ce71.png"><action name="Execute"><command><![CDATA[pavucontrol]]></command></action></item>
+  </menu>
+  <menu id="0.759038579476282" icon="/home/wgparch/.cache/obmenu-generator/icons/0f6daeed24502790bd8b4ccfc79e2f09.png" label="System">
+    <item label="Avahi Zeroconf Browser" icon="/home/wgparch/.cache/obmenu-generator/icons/48eb635bf222744beb0fea5efb4510dd.png"><action name="Execute"><command><![CDATA[/usr/bin/avahi-discover]]></command></action></item>
+    <item label="btop++" icon="/home/wgparch/.cache/obmenu-generator/icons/18f26e8b8266886ec893bf3d0474c680.png"><action name="Execute"><command><![CDATA[xterm -e 'btop']]></command></action></item>
+    <item label="conky" icon="/home/wgparch/.cache/obmenu-generator/icons/36071b119bda47f8a4b12a7795a3681b.png"><action name="Execute"><command><![CDATA[conky --daemonize --pause=1]]></command></action></item>
+    <item label="Cylon" icon="/home/wgparch/.cache/obmenu-generator/icons/318f27f2aab816e94e7032299b13edad.png"><action name="Execute"><command><![CDATA[xterm -e 'cylon']]></command></action></item>
+    <item label="Hardware Locality lstopo"><action name="Execute"><command><![CDATA[lstopo]]></command></action></item>
+    <item label="LXTerminal" icon="/home/wgparch/.cache/obmenu-generator/icons/79b992a36f3a93e4e7dbe199a6b14a78.png"><action name="Execute"><command><![CDATA[lxterminal]]></command></action></item>
+    <item label="PCMan File Manager" icon="/home/wgparch/.cache/obmenu-generator/icons/dcb352d4dc415ce6e566651d3b0b5e54.png"><action name="Execute"><command><![CDATA[pcmanfm]]></command></action></item>
+    <item label="QTerminal Drop-down" icon="/home/wgparch/.cache/obmenu-generator/icons/3f43f2f594c7899381888da0e6ba8049.png"><action name="Execute"><command><![CDATA[qterminal --drop]]></command></action></item>
+    <item label="QTerminal" icon="/home/wgparch/.cache/obmenu-generator/icons/3f43f2f594c7899381888da0e6ba8049.png"><action name="Execute"><command><![CDATA[qterminal]]></command></action></item>
+    <item label="Tilda (D-Bus)" icon="/home/wgparch/.cache/obmenu-generator/icons/8af3bd7da7810fcdf437f3525ed76d97.png"><action name="Execute"><command><![CDATA[/usr/bin/tilda --dbus]]></command></action></item>
+    <item label="Tilda" icon="/home/wgparch/.cache/obmenu-generator/icons/8af3bd7da7810fcdf437f3525ed76d97.png"><action name="Execute"><command><![CDATA[/usr/bin/tilda]]></command></action></item>
+    <item label="Tint2" icon="/home/wgparch/.cache/obmenu-generator/icons/5f3e62a7fdf6ef00e56dc2c0f7668a98.png"><action name="Execute"><command><![CDATA[tint2]]></command></action></item>
+    <item label="Xfce Terminal" icon="/home/wgparch/.cache/obmenu-generator/icons/4219937d76adf40ed690f96c006dfc07.png"><action name="Execute"><command><![CDATA[xfce4-terminal]]></command></action></item>
+  </menu>
+  <separator/>
+  <menu id="0.790628731034115" icon="/home/wgparch/.cache/obmenu-generator/icons/f855d8cad08e34fbdb78a93e63497827.png" label="Advanced Settings">
+    <item label="Conky RC" icon="/home/wgparch/.cache/obmenu-generator/icons/5cdcfa7d1b65060af71c177d134eff9f.png"><action name="Execute"><command><![CDATA[geany ~/.conkyrc]]></command></action></item>
+    <item label="Tint2 Panel" icon="/home/wgparch/.cache/obmenu-generator/icons/5cdcfa7d1b65060af71c177d134eff9f.png"><action name="Execute"><command><![CDATA[geany ~/.config/tint2/tint2rc]]></command></action></item>
+  <menu id="0.0448434192125902" icon="/home/wgparch/.cache/obmenu-generator/icons/23f5e6122e66fa0f5b8ec1933749700f.png" label="Obmenu-Generator">
+    <item label="Menu Schema" icon="/home/wgparch/.cache/obmenu-generator/icons/5cdcfa7d1b65060af71c177d134eff9f.png"><action name="Execute"><command><![CDATA[geany ~/.config/obmenu-generator/schema.pl]]></command></action></item>
+    <item label="Menu Config" icon="/home/wgparch/.cache/obmenu-generator/icons/5cdcfa7d1b65060af71c177d134eff9f.png"><action name="Execute"><command><![CDATA[geany ~/.config/obmenu-generator/config.pl]]></command></action></item>
+  <separator/>
+    <item label="Generate a static menu" icon="/home/wgparch/.cache/obmenu-generator/icons/23f5e6122e66fa0f5b8ec1933749700f.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -c]]></command></action></item>
+    <item label="Generate a static menu with icons" icon="/home/wgparch/.cache/obmenu-generator/icons/23f5e6122e66fa0f5b8ec1933749700f.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -i -c]]></command></action></item>
+  <separator/>
+    <item label="Generate a dynamic menu" icon="/home/wgparch/.cache/obmenu-generator/icons/23f5e6122e66fa0f5b8ec1933749700f.png"><action name="Execute"><command><![CDATA[obmenu-generator -p]]></command></action></item>
+    <item label="Generate a dynamic menu with icons" icon="/home/wgparch/.cache/obmenu-generator/icons/23f5e6122e66fa0f5b8ec1933749700f.png"><action name="Execute"><command><![CDATA[obmenu-generator -p -i]]></command></action></item>
+  <separator/>
+    <item label="Refresh cache" icon="/home/wgparch/.cache/obmenu-generator/icons/78f88727d172b40bbdb10537b0e12bf0.png"><action name="Execute"><command><![CDATA[obmenu-generator -d]]></command></action></item>
+  </menu>
+  <menu id="0.755212761026076" icon="/home/wgparch/.cache/obmenu-generator/icons/cbd33e85d4e0834359519a4e282b2aeb.png" label="Openbox">
+    <item label="Openbox Autostart" icon="/home/wgparch/.cache/obmenu-generator/icons/5cdcfa7d1b65060af71c177d134eff9f.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/autostart]]></command></action></item>
+    <item label="Openbox RC" icon="/home/wgparch/.cache/obmenu-generator/icons/5cdcfa7d1b65060af71c177d134eff9f.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/rc.xml]]></command></action></item>
+    <item label="Openbox Menu" icon="/home/wgparch/.cache/obmenu-generator/icons/5cdcfa7d1b65060af71c177d134eff9f.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/menu.xml]]></command></action></item>
+    <item label="Reconfigure Openbox" icon="/home/wgparch/.cache/obmenu-generator/icons/cbd33e85d4e0834359519a4e282b2aeb.png"><action name="Execute"><command><![CDATA[openbox --reconfigure]]></command></action></item>
+  </menu>
+  </menu>
+  <separator/>
+    <item label="Lock" icon="/home/wgparch/.cache/obmenu-generator/icons/7c532d9d3435ff43a465704d6d75d607.png"><action name="Execute"><command><![CDATA[xscreensaver-command -lock]]></command></action></item>
+    <item label="Exit" icon="/home/wgparch/.cache/obmenu-generator/icons/f797d051fc45bf2ee3f38c146cc36d68.png"><action name="Exit"/></item>
+  </menu>
+</openbox_menu>
